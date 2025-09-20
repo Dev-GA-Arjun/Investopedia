@@ -4,7 +4,7 @@ import requests
 user_currency = input("Enter Your currency ex 'inr': ").lower()
 url = f"https://api.coingecko.com/api/v3/simple/price"  #URL for coingeko
 
-#function to return crto data
+#function to return cryto data
 def get_rates(coin_name):
     params = {
         "ids": f"{coin_name}",        
